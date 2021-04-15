@@ -3,10 +3,50 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-  </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  <style>
+    h1 {
+      font-family: monospace;
+      font-size: 40px;
+    }
+    p {
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .corroxa {
+      background-color: purple;
+    }
+    .corverde {
+      background-color: green;
+    }
+    .corpreto {
+      font-family: monospace;
+      font-size: large;
+      background-color: gray;
+      
+    }
+    body {
+      font-family: monospace;
+      line-height: 38px;
+      font-weight: 500;
+    }
+    .picture{ 
+      border-radius: 50%;
+    }
+    .corazul {
+      font-family: monospace;
+      font-weight: 800;
+      line-height: 38px;
+    }
+      .link {
+        color:black;
+      font-family: monospace;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }  
+  </style>
   <body>
     <h2>Indice</h2>
-    <ol>
+    <ol class="corpreto"> 
       <li> <a href="#photo">Foto </a> </li>
       <li> <a href="#linkexterno">Links Externos </a> </li>
       <li> <a href="#habilidades">Habilidades </a> </li>
@@ -14,22 +54,22 @@
     </ol>
     <br> <br>
     <h1> <center>Eduardo da Silva Sass da Silva</center> </h1>
-    <center> <img id="photo"width="350px"  src="eu.jpg"> </center>
+    <center> <img id="photo"width="350px" class="picture" src="eu.jpg"> </center>
     <p>texto aqui sobre o que eu sou <br> o que eu amo fazer</p>
     <p>Sou <strong>carioca</strong>, tenho 24 anos, moro no centro do RJ, amo praticar esportes com ênfase em futebol, mas também sou apaixonado em <i>jogos onlines</i>.</p>
-    <p><img width="25px" src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"> <a id="linkexterno" target=”_blank” href="https://www.linkedin.com/in/eduardo-sass-89706920b/">Linkedin</a> 
+    <p> </p><img width="25px" src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"> <a id="linkexterno" target=”_blank” class="link" href="https://www.linkedin.com/in/eduardo-sass-89706920b/">Linkedin</a> 
     <br>
-    <p><img width="25px" src="https://img.flaticon.com/icons/png/512/25/25231.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"> <a target=”_blank” href="https://github.com/dudusass">GitHub</a>
+    <p> <img width="25px" src="https://img.flaticon.com/icons/png/512/25/25231.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"> <a target=”_blank” class="link" href="https://github.com/dudusass">GitHub</a>
       <hr> <!--linha--> 
-      <h3 id="habilidades">Habilidades das quais me orgulho</h3>
-      <ul>
+      <h3 id="habilidades" class="corverde">Habilidades das quais me orgulho</h3>
+      <ul class="corroxa">
         <li><strong>Comprometimento</strong> </li> 
         <li>Disciplina </li>
         <li>Dedicação </li>
-      <hr> <!--linha--> 
+       <hr> <!--linha--> 
       </ul>
-      <h3>Outras Habilidades</h3>
-      <ul>
+      <h3 class="corverde">Outras Habilidades</h3>
+      <ul class="corroxa">
         <li>algo </li> 
         <li>algo </li>
         <li>algo </li>
