@@ -20,15 +20,16 @@
       background-color: green;
     }
     .corpreto {
+      color:black;
       font-family: monospace;
       font-size: large;
-      background-color: gray;
-      
+      background-color: antiquewhite;
     }
     body {
       font-family: monospace;
       line-height: 38px;
       font-weight: 500;
+      background-color: antiquewhite;
     }
     .picture{ 
       border-radius: 50%;
@@ -42,20 +43,23 @@
         color:black;
       font-family: monospace;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }  
+    } 
+      .linkpreto{
+        color: black;
+      } 
   </style>
   <body>
     <h2>Indice</h2>
     <ol class="corpreto"> 
-      <li> <a href="#photo">Foto </a> </li>
-      <li> <a href="#linkexterno">Links Externos </a> </li>
-      <li> <a href="#habilidades">Habilidades </a> </li>
-      <li> <a href="#photo">.. </a> </li>
+      <li> <a class="linkpreto" href="#photo">Foto </a> </li>
+      <li> <a class="linkpreto" href="#linkexterno">Links Externos </a> </li>
+      <li> <a class="linkpreto" href="#habilidades">Habilidades </a> </li>
+      <li> <a class="linkpreto" href="#photo">.. </a> </li>
     </ol>
-    <br> <br>
     <h1> <center>Eduardo da Silva Sass da Silva</center> </h1>
     <center> <img id="photo"width="350px" class="picture" src="eu.jpg"> </center>
-    <p>texto aqui sobre o que eu sou <br> o que eu amo fazer</p>
+    <p>texto aqui sobre o que eu sou </p>
+    <p>o que eu amo fazer</p>
     <p>Sou <strong>carioca</strong>, tenho 24 anos, moro no centro do RJ, amo praticar esportes com ênfase em futebol, mas também sou apaixonado em <i>jogos onlines</i>.</p>
     <p> </p><img width="25px" src="https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"> <a id="linkexterno" target=”_blank” class="link" href="https://www.linkedin.com/in/eduardo-sass-89706920b/">Linkedin</a> 
     <br>
@@ -70,9 +74,9 @@
       </ul>
       <h3 class="corverde">Outras Habilidades</h3>
       <ul class="corroxa">
-        <li>algo </li> 
-        <li>algo </li>
-        <li>algo </li>
+        <li>Liderança </li> 
+        <li>Aprender a Aprender</li>
+        <li>Trabalho em Equipe</li>
       </ul>
       <hr>  <!--linha--> 
   </body>
